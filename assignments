@@ -52,3 +52,37 @@ while True:
     
     else:
         print("Invalid Input")
+
+Assignment 2: 
+Reading file in ‘r+’ mode:
+with open('sample.txt','r+') as fd:
+    print(fd.read())
+Write file in ‘r+’ mode:
+with open('sample.txt','r+') as fd:
+    fd.write("New text.")
+    
+Reading file in ‘w+’ mode:
+with open('sample.txt','w+') as fd:
+    print(fd.read())
+Write file in ‘w+’ mode:
+with open('sample.txt','w+') as fd:
+    fd.write("New text.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
